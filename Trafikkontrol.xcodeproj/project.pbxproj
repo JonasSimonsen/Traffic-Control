@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE0F31781E69561F0050A817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0F31771E69561F0050A817 /* AppDelegate.swift */; };
+		AE0F317A1E69561F0050A817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0F31791E69561F0050A817 /* ViewController.swift */; };
+		AE0F317D1E69561F0050A817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0F317B1E69561F0050A817 /* Main.storyboard */; };
+		AE0F317F1E69561F0050A817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0F317E1E69561F0050A817 /* Assets.xcassets */; };
+		AE0F31821E69561F0050A817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0F31801E69561F0050A817 /* LaunchScreen.storyboard */; };
+		AE0F318D1E69561F0050A817 /* TrafikkontrolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0F318C1E69561F0050A817 /* TrafikkontrolTests.swift */; };
+		AE0F31981E69561F0050A817 /* TrafikkontrolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0F31971E69561F0050A817 /* TrafikkontrolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE0F31891E69561F0050A817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE0F316C1E69561F0050A817 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE0F31731E69561F0050A817;
+			remoteInfo = Trafikkontrol;
+		};
+		AE0F31941E69561F0050A817 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE0F316C1E69561F0050A817 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE0F31731E69561F0050A817;
+			remoteInfo = Trafikkontrol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE0F31741E69561F0050A817 /* Trafikkontrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trafikkontrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0F31771E69561F0050A817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE0F31791E69561F0050A817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE0F317C1E69561F0050A817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE0F317E1E69561F0050A817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE0F31811E69561F0050A817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE0F31831E69561F0050A817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0F31881E69561F0050A817 /* TrafikkontrolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafikkontrolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0F318C1E69561F0050A817 /* TrafikkontrolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafikkontrolTests.swift; sourceTree = "<group>"; };
+		AE0F318E1E69561F0050A817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0F31931E69561F0050A817 /* TrafikkontrolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafikkontrolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0F31971E69561F0050A817 /* TrafikkontrolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafikkontrolUITests.swift; sourceTree = "<group>"; };
+		AE0F31991E69561F0050A817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE0F31711E69561F0050A817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0F31851E69561F0050A817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0F31901E69561F0050A817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE0F316B1E69561F0050A817 = {
+			isa = PBXGroup;
+			children = (
+				AE0F31761E69561F0050A817 /* Trafikkontrol */,
+				AE0F318B1E69561F0050A817 /* TrafikkontrolTests */,
+				AE0F31961E69561F0050A817 /* TrafikkontrolUITests */,
+				AE0F31751E69561F0050A817 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE0F31751E69561F0050A817 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE0F31741E69561F0050A817 /* Trafikkontrol.app */,
+				AE0F31881E69561F0050A817 /* TrafikkontrolTests.xctest */,
+				AE0F31931E69561F0050A817 /* TrafikkontrolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0F31761E69561F0050A817 /* Trafikkontrol */ = {
+			isa = PBXGroup;
+			children = (
+				AE0F31771E69561F0050A817 /* AppDelegate.swift */,
+				AE0F31791E69561F0050A817 /* ViewController.swift */,
+				AE0F317B1E69561F0050A817 /* Main.storyboard */,
+				AE0F317E1E69561F0050A817 /* Assets.xcassets */,
+				AE0F31801E69561F0050A817 /* LaunchScreen.storyboard */,
+				AE0F31831E69561F0050A817 /* Info.plist */,
+			);
+			path = Trafikkontrol;
+			sourceTree = "<group>";
+		};
+		AE0F318B1E69561F0050A817 /* TrafikkontrolTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE0F318C1E69561F0050A817 /* TrafikkontrolTests.swift */,
+				AE0F318E1E69561F0050A817 /* Info.plist */,
+			);
+			path = TrafikkontrolTests;
+			sourceTree = "<group>";
+		};
+		AE0F31961E69561F0050A817 /* TrafikkontrolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE0F31971E69561F0050A817 /* TrafikkontrolUITests.swift */,
+				AE0F31991E69561F0050A817 /* Info.plist */,
+			);
+			path = TrafikkontrolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE0F31731E69561F0050A817 /* Trafikkontrol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0F319C1E69561F0050A817 /* Build configuration list for PBXNativeTarget "Trafikkontrol" */;
+			buildPhases = (
+				AE0F31701E69561F0050A817 /* Sources */,
+				AE0F31711E69561F0050A817 /* Frameworks */,
+				AE0F31721E69561F0050A817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trafikkontrol;
+			productName = Trafikkontrol;
+			productReference = AE0F31741E69561F0050A817 /* Trafikkontrol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE0F31871E69561F0050A817 /* TrafikkontrolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0F319F1E69561F0050A817 /* Build configuration list for PBXNativeTarget "TrafikkontrolTests" */;
+			buildPhases = (
+				AE0F31841E69561F0050A817 /* Sources */,
+				AE0F31851E69561F0050A817 /* Frameworks */,
+				AE0F31861E69561F0050A817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE0F318A1E69561F0050A817 /* PBXTargetDependency */,
+			);
+			name = TrafikkontrolTests;
+			productName = TrafikkontrolTests;
+			productReference = AE0F31881E69561F0050A817 /* TrafikkontrolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE0F31921E69561F0050A817 /* TrafikkontrolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0F31A21E69561F0050A817 /* Build configuration list for PBXNativeTarget "TrafikkontrolUITests" */;
+			buildPhases = (
+				AE0F318F1E69561F0050A817 /* Sources */,
+				AE0F31901E69561F0050A817 /* Frameworks */,
+				AE0F31911E69561F0050A817 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE0F31951E69561F0050A817 /* PBXTargetDependency */,
+			);
+			name = TrafikkontrolUITests;
+			productName = TrafikkontrolUITests;
+			productReference = AE0F31931E69561F0050A817 /* TrafikkontrolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE0F316C1E69561F0050A817 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jonas Simonsen";
+				TargetAttributes = {
+					AE0F31731E69561F0050A817 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7TF35X66K3;
+						ProvisioningStyle = Automatic;
+					};
+					AE0F31871E69561F0050A817 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7TF35X66K3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE0F31731E69561F0050A817;
+					};
+					AE0F31921E69561F0050A817 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7TF35X66K3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE0F31731E69561F0050A817;
+					};
+				};
+			};
+			buildConfigurationList = AE0F316F1E69561F0050A817 /* Build configuration list for PBXProject "Trafikkontrol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE0F316B1E69561F0050A817;
+			productRefGroup = AE0F31751E69561F0050A817 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE0F31731E69561F0050A817 /* Trafikkontrol */,
+				AE0F31871E69561F0050A817 /* TrafikkontrolTests */,
+				AE0F31921E69561F0050A817 /* TrafikkontrolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE0F31721E69561F0050A817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0F31821E69561F0050A817 /* LaunchScreen.storyboard in Resources */,
+				AE0F317F1E69561F0050A817 /* Assets.xcassets in Resources */,
+				AE0F317D1E69561F0050A817 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0F31861E69561F0050A817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0F31911E69561F0050A817 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE0F31701E69561F0050A817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0F317A1E69561F0050A817 /* ViewController.swift in Sources */,
+				AE0F31781E69561F0050A817 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0F31841E69561F0050A817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0F318D1E69561F0050A817 /* TrafikkontrolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0F318F1E69561F0050A817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0F31981E69561F0050A817 /* TrafikkontrolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE0F318A1E69561F0050A817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE0F31731E69561F0050A817 /* Trafikkontrol */;
+			targetProxy = AE0F31891E69561F0050A817 /* PBXContainerItemProxy */;
+		};
+		AE0F31951E69561F0050A817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE0F31731E69561F0050A817 /* Trafikkontrol */;
+			targetProxy = AE0F31941E69561F0050A817 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE0F317B1E69561F0050A817 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0F317C1E69561F0050A817 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE0F31801E69561F0050A817 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0F31811E69561F0050A817 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE0F319A1E69561F0050A817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE0F319B1E69561F0050A817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE0F319D1E69561F0050A817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7TF35X66K3;
+				INFOPLIST_FILE = Trafikkontrol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonas-Simonsen.Trafikkontrol";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AE0F319E1E69561F0050A817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7TF35X66K3;
+				INFOPLIST_FILE = Trafikkontrol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonas-Simonsen.Trafikkontrol";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AE0F31A01E69561F0050A817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7TF35X66K3;
+				INFOPLIST_FILE = TrafikkontrolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonas-Simonsen.TrafikkontrolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trafikkontrol.app/Trafikkontrol";
+			};
+			name = Debug;
+		};
+		AE0F31A11E69561F0050A817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7TF35X66K3;
+				INFOPLIST_FILE = TrafikkontrolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonas-Simonsen.TrafikkontrolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trafikkontrol.app/Trafikkontrol";
+			};
+			name = Release;
+		};
+		AE0F31A31E69561F0050A817 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7TF35X66K3;
+				INFOPLIST_FILE = TrafikkontrolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonas-Simonsen.TrafikkontrolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Trafikkontrol;
+			};
+			name = Debug;
+		};
+		AE0F31A41E69561F0050A817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7TF35X66K3;
+				INFOPLIST_FILE = TrafikkontrolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonas-Simonsen.TrafikkontrolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Trafikkontrol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE0F316F1E69561F0050A817 /* Build configuration list for PBXProject "Trafikkontrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0F319A1E69561F0050A817 /* Debug */,
+				AE0F319B1E69561F0050A817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0F319C1E69561F0050A817 /* Build configuration list for PBXNativeTarget "Trafikkontrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0F319D1E69561F0050A817 /* Debug */,
+				AE0F319E1E69561F0050A817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE0F319F1E69561F0050A817 /* Build configuration list for PBXNativeTarget "TrafikkontrolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0F31A01E69561F0050A817 /* Debug */,
+				AE0F31A11E69561F0050A817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE0F31A21E69561F0050A817 /* Build configuration list for PBXNativeTarget "TrafikkontrolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0F31A31E69561F0050A817 /* Debug */,
+				AE0F31A41E69561F0050A817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE0F316C1E69561F0050A817 /* Project object */;
+}
