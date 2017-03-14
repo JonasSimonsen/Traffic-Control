@@ -14,6 +14,7 @@
 		AE0F31821E69561F0050A817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0F31801E69561F0050A817 /* LaunchScreen.storyboard */; };
 		AE0F318D1E69561F0050A817 /* TrafikkontrolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0F318C1E69561F0050A817 /* TrafikkontrolTests.swift */; };
 		AE0F31981E69561F0050A817 /* TrafikkontrolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0F31971E69561F0050A817 /* TrafikkontrolUITests.swift */; };
+		AE0F31A71E6963280050A817 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0F31A61E6963280050A817 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		AE0F31741E69561F0050A817 /* Trafikkontrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trafikkontrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0F31771E69561F0050A817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE0F31791E69561F0050A817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE0F31791E69561F0050A817 /* ViewController.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE0F317C1E69561F0050A817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE0F317E1E69561F0050A817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE0F31811E69561F0050A817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		AE0F31931E69561F0050A817 /* TrafikkontrolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafikkontrolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0F31971E69561F0050A817 /* TrafikkontrolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafikkontrolUITests.swift; sourceTree = "<group>"; };
 		AE0F31991E69561F0050A817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0F31A61E6963280050A817 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0F31A71E6963280050A817 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				AE0F318B1E69561F0050A817 /* TrafikkontrolTests */,
 				AE0F31961E69561F0050A817 /* TrafikkontrolUITests */,
 				AE0F31751E69561F0050A817 /* Products */,
+				AE0F31A51E6963280050A817 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				AE0F31991E69561F0050A817 /* Info.plist */,
 			);
 			path = TrafikkontrolUITests;
+			sourceTree = "<group>";
+		};
+		AE0F31A51E6963280050A817 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE0F31A61E6963280050A817 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -514,6 +526,7 @@
 				AE0F319E1E69561F0050A817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE0F319F1E69561F0050A817 /* Build configuration list for PBXNativeTarget "TrafikkontrolTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +535,7 @@
 				AE0F31A11E69561F0050A817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE0F31A21E69561F0050A817 /* Build configuration list for PBXNativeTarget "TrafikkontrolUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +544,7 @@
 				AE0F31A41E69561F0050A817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
